@@ -3,4 +3,9 @@ sudo apt-get update && sudo apt-get upgrade
 sudo apt-get dist-upgrade
 
 # Firefox developer
+sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
+sudo apt-get update
+sudo apt-get install firefox
 
+sudo apt-get install atom
+sudo apt-get install git
