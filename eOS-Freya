@@ -12,8 +12,14 @@ sudo apt-get install git
 
 sudo apt-get install virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11
 
-sudo apt-add-repository ppa:versable/elementary-update
+sudo add-apt-repository ppa:mpstark/elementary-tweaks-daily
 sudo apt-get update
 sudo apt-get install elementary-tweaks
+
+#pack iconos
+sudo add-apt-repository ppa:numix/ppa
+sudo apt-get update
+sudo apt-get install numix-icon-theme-circle
+
 
 sudo apt-get install transmission
