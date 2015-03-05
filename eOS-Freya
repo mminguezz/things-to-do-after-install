@@ -9,3 +9,11 @@ sudo apt-get install firefox
 
 sudo apt-get install atom
 sudo apt-get install git
+
+sudo apt-get install virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11
+
+sudo apt-add-repository ppa:versable/elementary-update
+sudo apt-get update
+sudo apt-get install elementary-tweaks
+
+sudo apt-get install transmission
