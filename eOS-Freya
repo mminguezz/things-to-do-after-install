@@ -27,3 +27,34 @@ sudo apt-get install numix-icon-theme-circle
 
 
 sudo apt-get install transmission
+
+
+// add canonical Partner repository
+sudo apt-get install skype
+
+sudo apt-get install gimp
+
+sudo apt-get install adobe-flashplugin
+
+/*
+Dropbox - Cloud storage
+
+Install dropbox to be able to save and sync files from the cloud. Download the Ubuntu deb installer from the dropbox website - https://www.dropbox.com/install?os=lnx and then install using gdebi
+
+$ sudo gdebi dropbox_1.6.0_amd64.deb
+
+There is another cloud storage service named Copy that has a native Linux client for syncing files easily. Check out the website at copy.com.
+http://copy.com/?r=DSwtSd
+*/
+
+sudo apt-get install libreoffice
+
+//twitwr
+$ sudo add-apt-repository ppa:birdie-team/stable
+$ sudo apt-get update
+$ sudo apt-get install birdie
+
+
+// clean
+sudo apt-get autoremove
+sudo apt-get autoclean
