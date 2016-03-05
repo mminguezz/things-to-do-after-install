@@ -50,7 +50,8 @@ sudo apt-get install conky-manager
 // add canonical Partner repository
 sudo apt-get install skype
 
-sudo apt-get install gimp
+sudo apt-get install gimp // http://blog.desdelinux.net/dale-a-gimp-la-apariencia-de-photoshop-cs6/
+sudo apt-get install inkscape
 
 sudo apt-get install adobe-flashplugin
 
@@ -92,7 +93,8 @@ sudo apt-get autoclean
 
 
 https://rhoconlinux.wordpress.com/2013/12/27/chiche-nuevo-plank-themer-cambiar-de-temas-en-plank-en-un-click/
-
+// editar el comportamineto de plank
+~/.config/plank/dock1/settings
 
 // node
 // https://fioriticarlos.wordpress.com/2014/05/20/instalar-nodejs-y-npm-en-ubuntu/
