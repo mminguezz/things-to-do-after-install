@@ -2,31 +2,46 @@
 sudo apt-get update && sudo apt-get upgrade  
 sudo apt-get dist-upgrade
 
+# Chrome
+#   Descargar de https://www.google.es/chrome/browser/desktop/index.html
+sudo dpkg -i Descargas/google-chrome-stable_current_amd64.deb
+#   Cambiando “google-chrome-stable_current_amd64.deb” por el nombre del fichero que hemos descargado
+sudo apt-get -f install
+
 # Firefox developer
 sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
 sudo apt-get update
 sudo apt-get install firefox
 
+# Atom
 sudo add-apt-repository ppa:webupd8team/atom
 sudo apt-get update
 sudo apt-get install atom
 
-
+# Git
 sudo apt-get install git
 
+# Virtual Box
 sudo apt-get install virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11
 
+sudo apt-get install transmission
+
+sudo apt-get install vim
+
+sudo apt-get install libreoffice
+
+
+# OPCIONAL
 sudo add-apt-repository ppa:mpstark/elementary-tweaks-daily
 sudo apt-get update
 sudo apt-get install elementary-tweaks
 
-#pack iconos
+# pack iconos
 sudo add-apt-repository ppa:numix/ppa
 sudo apt-get update
 sudo apt-get install numix-icon-theme-circle
 
 
-sudo apt-get install transmission
 
 
 // add canonical Partner repository
@@ -47,9 +62,7 @@ There is another cloud storage service named Copy that has a native Linux client
 http://copy.com/?r=DSwtSd
 */
 
-sudo apt-get install libreoffice
 
-sudo apt-get install vim
 
 
 // amp
