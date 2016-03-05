@@ -121,6 +121,21 @@ sudo tlp start
 sudo apt-add-repository ppa:justsomedood/justsomeelementary && sudo apt-get update
 sudo apt-get install translator
 
+# VLC- player
+sudo apt-get install vlc browser-plugin-vlc
+
+
+#etube
+sudo add-apt-repository ppa:versable/elementary-update 
+sudo apt-get update
+sudo apt-get install etube
+
+
+#USB indicador
+sudo add-apt-repository ppa:yunnxx/gnome3
+sudo apt-get update
+sudo apt-get install indicator-usb
+
 
 # drivers
 sudo add-apt-repository ppa:yunnxx/elementary
