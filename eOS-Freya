@@ -76,8 +76,8 @@ sudo apt-get install php5 libapache2-mod-php5
 apt-get install php5-mysql php5-curl php5-gd php5-intl php-pear php5-imagick php5-imap php5-mcrypt php5-memcache php5-ming php5-ps php5-pspell php5-recode php5-snmp php5-sqlite php5-tidy php5-xmlrpc php5-xsl
 // phpmyadmin
 sudo apt-get install phpmyadmin
-// link simbolico de la config de phpmyadmin
-sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf.d/phpmyadmin.conf
+sudo vim /etc/apache2/apache2.conf // al final del documento e incluimos:
+Include /etc/phpmyadmin/apache.conf
 
 
 
@@ -101,3 +101,9 @@ https://rhoconlinux.wordpress.com/2013/12/27/chiche-nuevo-plank-themer-cambiar-d
 sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install python-software-properties python g++ make nodejs
+
+
+# ffmulticonverter
+sudo add-apt-repository ppa:anton+/photo-video-apps
+sudo apt-get update
+sudo apt-get install ffmulticonverter
