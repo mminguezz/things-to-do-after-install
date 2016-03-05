@@ -48,7 +48,7 @@ sudo apt-get install conky-manager
 
 
 // add canonical Partner repository
-sudo apt-get install skype
+http://zonaelementaryos.com/2015/04/17/instalar-skype-elementary-os/
 
 sudo apt-get install gimp // http://blog.desdelinux.net/dale-a-gimp-la-apariencia-de-photoshop-cs6/
 sudo apt-get install inkscape
