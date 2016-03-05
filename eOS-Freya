@@ -2,11 +2,13 @@
 sudo apt-get update && sudo apt-get upgrade  
 sudo apt-get dist-upgrade
 
-# Chrome
+# Chrome  sudo apt-get install google-chrome-stable
 #   Descargar de https://www.google.es/chrome/browser/desktop/index.html
 sudo dpkg -i Descargas/google-chrome-stable_current_amd64.deb
 #   Cambiando “google-chrome-stable_current_amd64.deb” por el nombre del fichero que hemos descargado
 sudo apt-get -f install
+
+
 
 # Firefox developer
 sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
