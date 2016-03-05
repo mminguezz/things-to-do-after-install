@@ -95,7 +95,7 @@ sudo apt-get autoclean
 
 
 https://rhoconlinux.wordpress.com/2013/12/27/chiche-nuevo-plank-themer-cambiar-de-temas-en-plank-en-un-click/
-// editar el comportamineto de plank
+// editar el comportamineto de plank    plank --preferences
 ~/.config/plank/dock1/settings
 
 // node
@@ -116,6 +116,13 @@ sudo add-apt-repository ppa:linrunner/tlp
 sudo apt-get update
 sudo apt-get install tlp tlp-rdw
 sudo tlp start
+
+
+
+# drivers
+sudo add-apt-repository ppa:yunnxx/elementary
+sudo apt-get update
+sudo apt-get install mintdrivers
 
 # Install Multimedia Codecs and Enable DVD Playback
 sudo apt-add-repository ppa:mc3man/trusty-media
