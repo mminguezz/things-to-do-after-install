@@ -103,7 +103,19 @@ sudo apt-get update
 sudo apt-get install python-software-properties python g++ make nodejs
 
 
-# ffmulticonverter
+# ffmulticonverter  https://github.com/Ilias95/FF-Multi-Converter/wiki/Installing-on-Ubuntu
 sudo add-apt-repository ppa:anton+/photo-video-apps
 sudo apt-get update
 sudo apt-get install ffmulticonverter
+
+
+## bateria
+sudo add-apt-repository ppa:linrunner/tlp
+sudo apt-get update
+sudo apt-get install tlp tlp-rdw
+sudo tlp start
+
+# Install Multimedia Codecs and Enable DVD Playback
+sudo apt-add-repository ppa:mc3man/trusty-media
+sudo apt-get update
+sudo apt-get install ubuntu-restricted-extras ffmpeg gstreamer0.10-plugins-ugly libavcodec-extra-54 libvdpau-va-gl1 libmad0 mpg321 gstreamer1.0-libav
