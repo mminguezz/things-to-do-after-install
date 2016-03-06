@@ -8,8 +8,6 @@ sudo dpkg -i Descargas/google-chrome-stable_current_amd64.deb
 #   Cambiando “google-chrome-stable_current_amd64.deb” por el nombre del fichero que hemos descargado
 sudo apt-get -f install
 
-
-
 # Firefox developer
 sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
 sudo apt-get update
@@ -23,17 +21,13 @@ sudo apt-get install atom
 # Git
 sudo apt-get install git
 
-# Virtual Box
+# Virtual Box (pendiente)
 sudo apt-get install virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11
-
 sudo apt-get install transmission
-
 sudo apt-get install vim
-
 sudo apt-get install libreoffice
 
-
-# OPCIONAL
+# Personalizacion
 sudo add-apt-repository ppa:mpstark/elementary-tweaks-daily
 sudo apt-get update
 sudo apt-get install elementary-tweaks
@@ -43,33 +37,27 @@ sudo add-apt-repository ppa:numix/ppa
 sudo apt-get update
 sudo apt-get install numix-icon-theme-circle
 
-#conky
+# conky
 sudo apt-add-repository -y ppa:teejee2008/ppa
 sudo apt-get update
 sudo apt-get install conky-manager
 
-
-// add canonical Partner repository
+// Utilidades
 http://zonaelementaryos.com/2015/04/17/instalar-skype-elementary-os/
-
 sudo apt-get install gimp // http://blog.desdelinux.net/dale-a-gimp-la-apariencia-de-photoshop-cs6/
 sudo apt-get install inkscape
 
+# Flash (Pendiente)
 sudo apt-get install adobe-flashplugin
 
 /*
-Dropbox - Cloud storage
+Dropbox - Cloud storage (Pendiente)
 
 Install dropbox to be able to save and sync files from the cloud. Download the Ubuntu deb installer from the dropbox website - https://www.dropbox.com/install?os=lnx and then install using gdebi
-
 $ sudo gdebi dropbox_1.6.0_amd64.deb
-
 There is another cloud storage service named Copy that has a native Linux client for syncing files easily. Check out the website at copy.com.
 http://copy.com/?r=DSwtSd
 */
-
-
-
 
 // amp
 sudo apt-get install mysql-server mysql-client
@@ -81,37 +69,26 @@ sudo apt-get install phpmyadmin
 sudo vim /etc/apache2/apache2.conf // al final del documento e incluimos:
 Include /etc/phpmyadmin/apache.conf
 
-
-
-//twitwr
+//twitwr (Pendiente)
 $ sudo add-apt-repository ppa:birdie-team/stable
 $ sudo apt-get update
 $ sudo apt-get install birdie
-
 
 // clean
 sudo apt-get autoremove
 sudo apt-get autoclean
 
-
-https://rhoconlinux.wordpress.com/2013/12/27/chiche-nuevo-plank-themer-cambiar-de-temas-en-plank-en-un-click/
+// https://rhoconlinux.wordpress.com/2013/12/27/chiche-nuevo-plank-themer-cambiar-de-temas-en-plank-en-un-click/
 // editar el comportamineto de plank    plank --preferences
 ~/.config/plank/dock1/settings
 
-// node
+// node (Pendiente)
 // https://fioriticarlos.wordpress.com/2014/05/20/instalar-nodejs-y-npm-en-ubuntu/
 sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install python-software-properties python g++ make nodejs
 
-
-# ffmulticonverter  https://github.com/Ilias95/FF-Multi-Converter/wiki/Installing-on-Ubuntu
-sudo add-apt-repository ppa:anton+/photo-video-apps
-sudo apt-get update
-sudo apt-get install ffmulticonverter
-
-
-## bateria
+# bateria (Añadir al inicio ¿?)
 sudo add-apt-repository ppa:linrunner/tlp
 sudo apt-get update
 sudo apt-get install tlp tlp-rdw
@@ -124,12 +101,11 @@ sudo apt-get install translator
 # VLC- player
 sudo apt-get install vlc browser-plugin-vlc
 
+# minitube
+http://flavio.tordini.org/minitube
 
-#etube
-sudo add-apt-repository ppa:versable/elementary-update 
-sudo apt-get update
-sudo apt-get install etube
-
+# Compresores
+sudo apt-get install rar unace p7zip p7zip-full p7zip-rar unrar lzip
 
 #USB indicador
 sudo add-apt-repository ppa:yunnxx/gnome3
@@ -142,11 +118,7 @@ sudo add-apt-repository ppa:yunnxx/elementary
 sudo apt-get update
 sudo apt-get install mintdrivers
 
-# Install Multimedia Codecs and Enable DVD Playback
-sudo apt-add-repository ppa:mc3man/trusty-media
-sudo apt-get update
-sudo apt-get install ubuntu-restricted-extras ffmpeg gstreamer0.10-plugins-ugly libavcodec-extra-54 libvdpau-va-gl1 libmad0 mpg321 gstreamer1.0-libav
-
+# Install Multimedia Codecs 
 sudo apt-get install ubuntu-restricted-extras
 
 
