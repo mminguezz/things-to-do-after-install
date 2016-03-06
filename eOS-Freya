@@ -121,6 +121,17 @@ sudo apt-get install mintdrivers
 # Install Multimedia Codecs 
 sudo apt-get install ubuntu-restricted-extras
 
+# calibre
+sudo apt-get install calibre
+
 
 REvisra y convertir en 
 http://aplicacionesysistemas.com/postinstalacion-elementary-os/
+
+
+
+
+PENDIENTE
+
+# ftp
+sudo apt-get install filezilla
